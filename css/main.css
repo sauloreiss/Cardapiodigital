@@ -19,7 +19,6 @@
     --color-red: #e74c3c;
     --color-green: #2ecc71;
     --color-separate: #cccccc;
-    
 }
 
 
@@ -33,6 +32,13 @@ b {
     font-family: 'PoppinsMedium' , 'Rubik' ,'sans-serif';
 }
 
+.color-primary {
+    color: var(--color-primary);
+}
+
+a.navbar-brand {
+    margin-left: -5px;
+}
 .nav-link {
     color: var(--color-black)!important;
     padding-left: 35px!important;
@@ -43,7 +49,7 @@ b {
     background-color: var(--color-wite);
     color: var(--color-black)!important;
     border-radius: 20px;
-    padding: 15 px 25px;
+    padding: 15px 25px;
     font-size: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
@@ -52,7 +58,7 @@ b {
     padding-right: 75px;
 }
 
-.btn-icon .icon {
+.btn-icon .icon  {
     display: inline-block;
     color: var(--color-black);
     background-color: var(--color-primary);
@@ -64,4 +70,53 @@ b {
     border-radius: 15px;
     text-align: center;
     padding-top: 6px;
+}
+
+.banner {
+    padding-top: 110px;
+    padding-bottom: 200px;
+}
+
+.text-banner {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.text-banner h1 {
+    color: var(--color-black);
+    font-size: 60px;
+}
+
+.text-banner p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.btn-yellow {
+    background-color: var(--color-primary);
+    color: var(--color-wite) !important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.btn-icon-left {
+    padding-left: 70px;
+}
+
+.btn-icon-left span.icon-left {
+    display: inline-block;
+    color: var(--color-wite);
+    background-color: var(--color-primary);
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -8px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
 }
